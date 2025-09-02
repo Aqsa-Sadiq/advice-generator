@@ -91,3 +91,68 @@ body{
     color: #6c63ff;
     border: 2px solid #6c63ff;
 }
+/* Responsive Code */
+@media (max-width: 992px) {
+    .advice-box {
+        width: 90%;
+        padding: 30px;
+    }
+
+    .advice-box h2 {
+        font-size: 1.8rem;
+    }
+
+    .advice-box blockquote {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .advice-box {
+        width: 95%;
+        padding: 25px;
+    }
+
+    .advice-box h2 {
+        font-size: 1.6rem;
+    }
+
+    .advice-box blockquote {
+        font-size: 1.1rem;
+    }
+
+    .advice-box div {
+        flex-wrap: wrap;
+    }
+
+    .advice-box div button {
+        width: 100px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 480px) {
+    .advice-box {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .advice-box h2 {
+        font-size: 1.4rem;
+    }
+
+    .advice-box blockquote {
+        font-size: 1rem;
+    }
+
+    .advice-box div button {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .advice-box span {
+        float: none;
+        text-align: center;
+        margin: 15px auto 0;
+    }
+}
